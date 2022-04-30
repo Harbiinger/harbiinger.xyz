@@ -1,3 +1,5 @@
+/* colors : https://coolors.co/15151e */
+
 body {
 	background-color : #15151e;
 	font-family      : "Courier New";
@@ -5,9 +7,9 @@ body {
 }
 
 h1 {
-	color        : LightGrey;
-	padding      : 50px;
-	text-align   : center;
+	color      : LightGrey;
+	padding    : 50px;
+	text-align : center;
 }
 
 ul {
@@ -16,8 +18,8 @@ ul {
 	padding          : 0;
 	overflow         : hidden;
 	background-color : #2d343e;
-	position: sticky;
-	top: 0;
+	position         : sticky;
+	top              : 0;
 }
 
 li {
@@ -33,6 +35,6 @@ li a {
 }
 
 li a:hover {
-	color           : Black;
-	background-color: DarkGray;
+	color            : Black;
+	background-color : DarkGray;
 }
