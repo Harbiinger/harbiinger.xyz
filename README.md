@@ -1,7 +1,7 @@
 # harbiinger.xyz
 My website
 
-organisations des fichiers html 
+organisation des fichiers html & css
 ```bash
 .
 ├── html
