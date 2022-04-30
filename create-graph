@@ -6,3 +6,4 @@ read km
 sed "19 s/y/$name/" graphmodel.html > tmp
 sed "19 s/x/$km/" tmp > $name$km.html
 rm tmp
+mv $name$km.html nginx/html/bikers/
