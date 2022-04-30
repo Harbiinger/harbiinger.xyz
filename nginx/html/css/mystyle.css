@@ -1,0 +1,38 @@
+body {
+	background-color : #15151e;
+	font-family      : "Courier New";
+	color            : LightGrey;
+}
+
+h1 {
+	color        : LightGrey;
+	padding      : 50px;
+	text-align   : center;
+}
+
+ul {
+	list-style-type  : none;
+	margin           : 0;
+	padding          : 0;
+	overflow         : hidden;
+	background-color : #2d343e;
+	position: sticky;
+	top: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display         : block;
+	color           : LightGrey;
+	text-align      : center;
+	padding         : 14px 16px;
+	text-decoration : none;
+}
+
+li a:hover {
+	color           : Black;
+	background-color: DarkGray;
+}
