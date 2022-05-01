@@ -1,9 +1,0 @@
-#!/bin/bash
-echo "What's your name ?"
-read name
-echo "How long is your ride (in kilometers) ?"
-read km
-sed "19 s/y/$name/" graphmodel.html > tmp
-sed "19 s/x/$km/" tmp > $name$km.html
-rm tmp
-mv $name$km.html nginx/bikers/html/
