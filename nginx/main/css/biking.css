@@ -1,0 +1,35 @@
+svg {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding-top: 40px;
+}
+
+polyline {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 5s ease-in forwards;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+}
+
+@keyframes dash{
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+
+p {
+	text-align:center;
+	color: #efefef;
+}
+
+.name {
+	font-weight: light;
+}
+
+h2 {
+	text-align : center;
+	padding-top : 15%;
+}
