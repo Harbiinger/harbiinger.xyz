@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "What's your name ?"
+read name
+echo "How long is your ride (in kilometers) ?"
+read km
+if [[ ! -f "nginx/html/$name$km.html" ]]
+then
+./create-graph $name $km
+fi
+echo "When was your ride (dd/mm) ?"
+read rdate
