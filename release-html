@@ -1,1 +1,1 @@
-cp -r nginx/main /usr/share/nginx
+cp -r nginx/main/* /usr/share/nginx/main/
