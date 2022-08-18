@@ -22,23 +22,23 @@ params:
   #author: 
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2 January 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
 
-  #ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
-  hidemeta: false
-  hideSummary: false
+  hidemeta: true
+  hideSummary: true
   showtoc: false
   tocopen: false
 
