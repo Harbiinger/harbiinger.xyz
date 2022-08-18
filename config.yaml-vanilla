@@ -1,0 +1,73 @@
+baseURL: https://harbiinger.xyz
+languageCode: en-us
+title: Harbiinger.xyz
+theme: vanilla-bootstrap-hugo-theme
+
+taxonomies:
+  tag: tags
+
+#permalinks:
+#  post: /:filename/
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+menu:
+  nav:
+  - name: Home
+    pre: home
+    url: /
+    weight: 1
+  - name: Xmpp
+    pre: message-square
+    url: /content/xmpp/
+    weight: 2
+  - name: Biking-stats
+    pre: bar-chart-2
+    url: /content/biking-stats/
+    weight: 3
+  - name: Donate
+    pre: dollar-sign
+    url: /content/donate/
+    weight: 4
+
+params:
+  relativeURLs: true
+  includeBootstrapJs: false
+  showActiveNav: true
+  containerMaxWidth: 700px
+  dateFormat: Jan 2, 2006
+  homeText: Welcome to my website.
+  footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
+  hideFooter: true
+  katex: true
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2

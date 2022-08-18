@@ -1,69 +1,129 @@
-baseURL: https://harbiinger.xyz
-languageCode: en-us
-title: Harbiinger.xyz
-theme: vanilla-bootstrap-hugo-theme
+baseURL: "https://harbiinger.xyz/"
+title: Harbiinger
+paginate: 5
+theme: PaperMod
 
-taxonomies:
-  tag: tags
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-#permalinks:
-#  post: /:filename/
+#googleAnalytics: UA-123-45
 
-# See https://feathericons.com/
-# The value of pre is the icon name
-menu:
-  nav:
-  - name: Home
-    pre: home
-    url: /
-    weight: 1
-  - name: Xmpp
-    pre: message-square
-    url: /content/xmpp/
-    weight: 2
-  - name: Biking-stats
-    pre: bar-chart-2
-    url: /content/biking-stats/
-    weight: 3
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
-  relativeURLs: true
-  includeBootstrapJs: false
-  showActiveNav: true
-  containerMaxWidth: 700px
-  dateFormat: Jan 2, 2006
-  homeText: Welcome to my website.
-  footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
-  hideFooter: true
-  katex: true
+  #env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Harbiinger
+  description: "idk what it is"
+  keywords: [Blog, Linux]
+  #author: 
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
 
+  #ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Harbiinger.xyz 
+    subtitle: "Welcome to my website"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: home image
+    buttons:
+      - name: Posts
+        url: content/index.md
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hello there"
+    Content: "Welcome to my website"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/harbiinger"
+    - name: reddit
+      url: "https://reddit.com/u/HarbingerOW"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/harbiinger/harbiinger.xyz"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: false # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: example
+      name: donate
+      url: /content/donate/
+      weight: 30
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
 markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute: true
-      autoHeadingID: true
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xHTML: false
   highlight:
-    codeFences: true
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
-    tabWidth: 4
-  tableOfContents:
-    endLevel: 6
-    startLevel: 2
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

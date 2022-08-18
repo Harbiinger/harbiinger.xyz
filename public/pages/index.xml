@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Harbiinger</title>
+    <link>https://harbiinger.xyz/pages/</link>
+    <description>Recent content in Pages on Harbiinger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 17 Aug 2022 15:42:19 +0200</lastBuildDate><atom:link href="https://harbiinger.xyz/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Donate</title>
+      <link>https://harbiinger.xyz/content/donate/</link>
+      <pubDate>Wed, 17 Aug 2022 15:42:19 +0200</pubDate>
+      
+      <guid>https://harbiinger.xyz/content/donate/</guid>
+      <description>Make a donation (xmr) :
+83ajduG8ZUKg7kiccwAKbich7YVRM5sUXWpLAXssD8WCWhJFiTz1Yxz4yMrWE1fgRVUdPZsJi7k7sKfBL9N65r59K8hLtGf </description>
+    </item>
+    
+    <item>
+      <title>Biking Stats</title>
+      <link>https://harbiinger.xyz/content/biking-stats/</link>
+      <pubDate>Sat, 13 Aug 2022 13:30:08 +0200</pubDate>
+      
+      <guid>https://harbiinger.xyz/content/biking-stats/</guid>
+      <description>Coming soon.</description>
+    </item>
+    
+    <item>
+      <title>How to join xmpp via my instance ?</title>
+      <link>https://harbiinger.xyz/content/xmpp/</link>
+      <pubDate>Sat, 13 Aug 2022 11:51:46 +0200</pubDate>
+      
+      <guid>https://harbiinger.xyz/content/xmpp/</guid>
+      <description>First, you will need to choose a name for your account and send it to me so I can create an account on the XMPP instance for you (only administrators are allowed to create accounts). I will then send you your ID and password (which you can change later on). From there on, you should be able to connect to the instance using the provided ID and password. To connect, you must use a client (either on Windows/Linux/MacOS or Android/iOS).</description>
+    </item>
+    
+  </channel>
+</rss>
