@@ -5,7 +5,25 @@
     <link>https://harbiinger.xyz/pages/</link>
     <description>Recent content in Pages on Harbiinger</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Aug 2022 15:42:19 +0200</lastBuildDate><atom:link href="https://harbiinger.xyz/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://harbiinger.xyz/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://harbiinger.xyz/content/books/</link>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://harbiinger.xyz/content/books/</guid>
+      <description>my library</description>
+    </item>
+    
+    <item>
+      <title>Films</title>
+      <link>https://harbiinger.xyz/content/films/</link>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://harbiinger.xyz/content/films/</guid>
+      <description>download watch Films I watched 0-9 2001 A Space Odyssey A A Bug&amp;rsquo;s Life Addams Family Values Akira Alien Aliens American Psycho Armageddon A Silent Voice: The Movie Asterix &amp;amp; Obelix: Mission Cleopatra Atlantis: The Lost Empire Avatar Avatar: The Way of Water B Back to the Future part 1 Back to the Future part 2 Back to the Future part 3 Batman Begins Batman The Dark Knight Batman The Dark Knight Rises Bee Movie Big Hero 6 Blade Runner Bolt Brother Bear C Cars 1 Cars 2 Catch Me If You Can Charlie and the Chocolate Factory Clash of the Titans Cloudy with a Chance of Meatballs Contagion Coraline D Das Boat Deadpool 1 Deadpool 2 Despicable Me Die Hard 1 District 9 Django Unchained Dune part one E Edge of Tomorrow Ender&amp;rsquo;s Game E.</description>
+    </item>
+    
     <item>
       <title>Donate</title>
       <link>https://harbiinger.xyz/content/donate/</link>
@@ -25,15 +43,6 @@
       <description>Bikers stats will be available here : bikers-stats
 And it&amp;rsquo;s not coming soon.
 Yes I lied.</description>
-    </item>
-    
-    <item>
-      <title>How to join xmpp via my instance ?</title>
-      <link>https://harbiinger.xyz/content/xmpp/</link>
-      <pubDate>Sat, 13 Aug 2022 11:51:46 +0200</pubDate>
-      
-      <guid>https://harbiinger.xyz/content/xmpp/</guid>
-      <description>First, you will need to choose a name for your account and send it to me so I can create an account on the XMPP instance for you (only administrators are allowed to create accounts). I will then send you your ID and password (which you can change later on). From there on, you should be able to connect to the instance using the provided ID and password. To connect, you must use a client (either on Windows/Linux/MacOS or Android/iOS).</description>
     </item>
     
   </channel>
